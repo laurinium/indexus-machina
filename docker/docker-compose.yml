@@ -1,0 +1,16 @@
+version: '3'
+services:
+  elastic:
+    image: elasticsearch
+  chrome:
+    image: justinribeiro/chrome-headless
+    cap_add:
+      - SYS_ADMIN
+    ports:
+      - 9222:9222
+  manager:
+    image: php:7.0-apache
+    ports:
+      - 9876:80
+    volumes:
+      - ../src/manager:/var/www/html

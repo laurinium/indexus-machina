@@ -1,0 +1,14 @@
+{
+    "name": "laurinium/indexus-machina",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jens Laur",
+            "email": "jens@laur.me"
+        }
+    ],
+    "autoload": {
+        "classmap":["lib"]
+        },
+    "require": {}
+}
