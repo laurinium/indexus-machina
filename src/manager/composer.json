@@ -1,0 +1,12 @@
+{
+    "name": "laurinium/indexus-manager",
+    "authors": [
+        {
+            "name": "Jens Laur",
+            "email": "laur@secra.de"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}
